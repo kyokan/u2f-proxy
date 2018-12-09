@@ -1,0 +1,28 @@
+{
+  "name": "u2f-proxy",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build tsconfig.json",
+    "lint": "tslint -p tsconfig.json",
+    "lint:fix": "tslint -p tsconfig.json --fix",
+    "harness": "./harness.sh",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "u2f-api": "^1.0.9",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
